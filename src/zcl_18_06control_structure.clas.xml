@@ -3,9 +3,9 @@
  <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
   <asx:values>
    <VSEOCLASS>
-    <CLSNAME>ZCL_18_INTERNAL_TABLE</CLSNAME>
+    <CLSNAME>ZCL_18_06CONTROL_STRUCTURE</CLSNAME>
     <LANGU>E</LANGU>
-    <DESCRIPT>INTERNAL TABLE PRACTICE</DESCRIPT>
+    <DESCRIPT>controls loops if else do</DESCRIPT>
     <STATE>1</STATE>
     <CLSCCINCL>X</CLSCCINCL>
     <FIXPT>X</FIXPT>

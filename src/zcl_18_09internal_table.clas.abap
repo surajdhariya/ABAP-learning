@@ -1,4 +1,4 @@
-CLASS zcl_18_internal_table DEFINITION
+CLASS zcl_18_09internal_table DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_18_internal_table IMPLEMENTATION.
+CLASS zcl_18_09internal_table IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
