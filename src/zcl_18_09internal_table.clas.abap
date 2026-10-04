@@ -97,5 +97,29 @@ CLASS zcl_18_09internal_table IMPLEMENTATION.
       out->write( |Row: { sy-tabix } Content { number_inline }| ).
     ENDLOOP.
 
+
+
+    TYPES:
+      BEGIN OF ty_employee,
+        id   TYPE i,
+        name TYPE string,
+      END OF ty_employee.
+
+    DATA employees TYPE TABLE OF ty_employee.
+    DATA employee TYPE ty_employee.
+
+    employee-id = 1.
+    employee-name = 'suraj'.
+    APPEND employee TO employees.
+
+    CLEAR employee.
+    employee-id = 2.
+    employee-name = 'dhariya'.
+    APPEND employee TO employees.
+
+out->write( employees ).
+    LOOP AT employees INTO DATA(employeeoutput).
+      out->write( employeeoutput ).
+    ENDLOOP.
   ENDMETHOD.
 ENDCLASS.
