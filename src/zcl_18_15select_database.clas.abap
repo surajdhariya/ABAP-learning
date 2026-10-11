@@ -1,4 +1,4 @@
-CLASS zcl_18_14select_database DEFINITION
+CLASS zcl_18_15select_database DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_18_14select_database IMPLEMENTATION.
+CLASS zcl_18_15select_database IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
