@@ -39,12 +39,9 @@ CLASS lcl_connection IMPLEMENTATION.
 
     SELECT SINGLE FROM /DMO/I_Connection
      FIELDS DepartureAirport,DestinationAirport, \_Airline-Name
-
     WHERE AirlineID    = @i_carrier_id
      AND ConnectionID = @i_connection_id
-
     INTO ( @airport_from_id, @airport_to_id, @carrier_name ).
-
 
 
     IF sy-subrc <> 0.
