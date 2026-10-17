@@ -1,4 +1,4 @@
-CLASS zcl_18_22complex_inter_table3 DEFINITION
+CLASS zcl_18_23complex_inter_table3 DEFINITION
   PUBLIC
   FINAL
   CREATE PUBLIC .
@@ -12,7 +12,7 @@ ENDCLASS.
 
 
 
-CLASS zcl_18_22complex_inter_table3 IMPLEMENTATION.
+CLASS zcl_18_23complex_inter_table3 IMPLEMENTATION.
 
 
   METHOD if_oo_adt_classrun~main.
